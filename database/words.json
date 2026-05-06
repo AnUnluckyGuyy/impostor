@@ -1,0 +1,2102 @@
+[
+  {
+    "word": "carro",
+    "hints": [
+      "rodas",
+      "viagem",
+      "motor",
+      "estrada",
+      "combustível"
+    ]
+  },
+  {
+    "word": "celular",
+    "hints": [
+      "toque",
+      "bolso",
+      "tela",
+      "aplicativo",
+      "ligação"
+    ]
+  },
+  {
+    "word": "computador",
+    "hints": [
+      "teclado",
+      "tela",
+      "arquivo",
+      "programa",
+      "processo"
+    ]
+  },
+  {
+    "word": "cadeira",
+    "hints": [
+      "sentar",
+      "encosto",
+      "pernas",
+      "conforto",
+      "apoio"
+    ]
+  },
+  {
+    "word": "mesa",
+    "hints": [
+      "plano",
+      "apoio",
+      "refeição",
+      "superfície",
+      "móvel"
+    ]
+  },
+  {
+    "word": "geladeira",
+    "hints": [
+      "frio",
+      "armazenar",
+      "cozinha",
+      "alimento",
+      "energia"
+    ]
+  },
+  {
+    "word": "televisão",
+    "hints": [
+      "tela",
+      "canal",
+      "controle",
+      "imagem",
+      "entretenimento"
+    ]
+  },
+  {
+    "word": "relógio",
+    "hints": [
+      "tempo",
+      "pulso",
+      "hora",
+      "medição",
+      "rotina"
+    ]
+  },
+  {
+    "word": "caneta",
+    "hints": [
+      "tinta",
+      "papel",
+      "escrever",
+      "traço",
+      "material"
+    ]
+  },
+  {
+    "word": "lápis",
+    "hints": [
+      "grafite",
+      "desenho",
+      "apagar",
+      "esboço",
+      "ponta"
+    ]
+  },
+  {
+    "word": "mochila",
+    "hints": [
+      "costas",
+      "transporte",
+      "objetos",
+      "escola",
+      "alça"
+    ]
+  },
+  {
+    "word": "livro",
+    "hints": [
+      "páginas",
+      "história",
+      "leitura",
+      "conteúdo",
+      "autor"
+    ]
+  },
+  {
+    "word": "copo",
+    "hints": [
+      "líquido",
+      "beber",
+      "recipiente",
+      "uso",
+      "vidro"
+    ]
+  },
+  {
+    "word": "garrafa",
+    "hints": [
+      "tampa",
+      "armazenar",
+      "bebida",
+      "transporte",
+      "líquido"
+    ]
+  },
+  {
+    "word": "chave",
+    "hints": [
+      "abrir",
+      "acesso",
+      "metal",
+      "fechadura",
+      "entrada"
+    ]
+  },
+  {
+    "word": "porta",
+    "hints": [
+      "entrada",
+      "passagem",
+      "abrir",
+      "fechar",
+      "divisão"
+    ]
+  },
+  {
+    "word": "janela",
+    "hints": [
+      "luz",
+      "vento",
+      "vidro",
+      "abertura",
+      "visão"
+    ]
+  },
+  {
+    "word": "sofá",
+    "hints": [
+      "descanso",
+      "sala",
+      "assento",
+      "conforto",
+      "almofada"
+    ]
+  },
+  {
+    "word": "cama",
+    "hints": [
+      "sono",
+      "descanso",
+      "quarto",
+      "colchão",
+      "noite"
+    ]
+  },
+  {
+    "word": "travesseiro",
+    "hints": [
+      "cabeça",
+      "sono",
+      "macio",
+      "apoio",
+      "cama"
+    ]
+  },
+  {
+    "word": "cobertor",
+    "hints": [
+      "calor",
+      "inverno",
+      "cama",
+      "tecido",
+      "proteção"
+    ]
+  },
+  {
+    "word": "fogão",
+    "hints": [
+      "calor",
+      "cozinhar",
+      "fogo",
+      "panela",
+      "refeição"
+    ]
+  },
+  {
+    "word": "forno",
+    "hints": [
+      "assar",
+      "calor",
+      "cozinha",
+      "temperatura",
+      "alimento"
+    ]
+  },
+  {
+    "word": "panela",
+    "hints": [
+      "cozinhar",
+      "metal",
+      "comida",
+      "fogão",
+      "preparo"
+    ]
+  },
+  {
+    "word": "prato",
+    "hints": [
+      "refeição",
+      "servir",
+      "comida",
+      "mesa",
+      "uso"
+    ]
+  },
+  {
+    "word": "talher",
+    "hints": [
+      "comer",
+      "mesa",
+      "utensílio",
+      "refeição",
+      "uso"
+    ]
+  },
+  {
+    "word": "espelho",
+    "hints": [
+      "reflexo",
+      "imagem",
+      "rosto",
+      "vidro",
+      "visual"
+    ]
+  },
+  {
+    "word": "escova",
+    "hints": [
+      "limpeza",
+      "cabelo",
+      "dentes",
+      "cuidado",
+      "higiene"
+    ]
+  },
+  {
+    "word": "pente",
+    "hints": [
+      "cabelo",
+      "organizar",
+      "fios",
+      "aparência",
+      "uso"
+    ]
+  },
+  {
+    "word": "toalha",
+    "hints": [
+      "secar",
+      "água",
+      "banho",
+      "tecido",
+      "corpo"
+    ]
+  },
+  {
+    "word": "sabonete",
+    "hints": [
+      "espuma",
+      "limpeza",
+      "banho",
+      "cheiro",
+      "higiene"
+    ]
+  },
+  {
+    "word": "shampoo",
+    "hints": [
+      "cabelo",
+      "espuma",
+      "lavar",
+      "banho",
+      "frasco"
+    ]
+  },
+  {
+    "word": "condicionador",
+    "hints": [
+      "cabelo",
+      "macio",
+      "tratamento",
+      "lavar",
+      "hidratação"
+    ]
+  },
+  {
+    "word": "secador",
+    "hints": [
+      "ar",
+      "calor",
+      "cabelo",
+      "secar",
+      "elétrico"
+    ]
+  },
+  {
+    "word": "ferro",
+    "hints": [
+      "calor",
+      "roupa",
+      "alisar",
+      "tecido",
+      "passar"
+    ]
+  },
+  {
+    "word": "armário",
+    "hints": [
+      "guardar",
+      "roupa",
+      "porta",
+      "móvel",
+      "organização"
+    ]
+  },
+  {
+    "word": "gaveta",
+    "hints": [
+      "abrir",
+      "guardar",
+      "móvel",
+      "pequeno",
+      "objetos"
+    ]
+  },
+  {
+    "word": "estante",
+    "hints": [
+      "livros",
+      "prateleira",
+      "organizar",
+      "suporte",
+      "móvel"
+    ]
+  },
+  {
+    "word": "luminária",
+    "hints": [
+      "luz",
+      "iluminar",
+      "ambiente",
+      "energia",
+      "mesa"
+    ]
+  },
+  {
+    "word": "lanterna",
+    "hints": [
+      "escuro",
+      "luz",
+      "portátil",
+      "bateria",
+      "uso"
+    ]
+  },
+  {
+    "word": "câmera",
+    "hints": [
+      "foto",
+      "imagem",
+      "lente",
+      "registro",
+      "memória"
+    ]
+  },
+  {
+    "word": "controle",
+    "hints": [
+      "botão",
+      "distância",
+      "comando",
+      "televisão",
+      "uso"
+    ]
+  },
+  {
+    "word": "mouse",
+    "hints": [
+      "cursor",
+      "clique",
+      "computador",
+      "mão",
+      "controle"
+    ]
+  },
+  {
+    "word": "teclado",
+    "hints": [
+      "digitar",
+      "teclas",
+      "computador",
+      "texto",
+      "entrada"
+    ]
+  },
+  {
+    "word": "impressora",
+    "hints": [
+      "papel",
+      "tinta",
+      "documento",
+      "impressão",
+      "saída"
+    ]
+  },
+  {
+    "word": "scanner",
+    "hints": [
+      "digitalizar",
+      "imagem",
+      "documento",
+      "arquivo",
+      "entrada"
+    ]
+  },
+  {
+    "word": "roteador",
+    "hints": [
+      "wifi",
+      "rede",
+      "internet",
+      "sinal",
+      "conexão"
+    ]
+  },
+  {
+    "word": "modem",
+    "hints": [
+      "internet",
+      "dados",
+      "sinal",
+      "conexão",
+      "rede"
+    ]
+  },
+  {
+    "word": "fone",
+    "hints": [
+      "som",
+      "ouvido",
+      "música",
+      "escutar",
+      "áudio"
+    ]
+  },
+  {
+    "word": "caixa",
+    "hints": [
+      "som",
+      "volume",
+      "música",
+      "áudio",
+      "alto"
+    ]
+  },
+  {
+    "word": "cachorro",
+    "hints": [
+      "latido",
+      "lealdade",
+      "cauda",
+      "doméstico",
+      "guarda"
+    ]
+  },
+  {
+    "word": "gato",
+    "hints": [
+      "miado",
+      "independente",
+      "caça",
+      "macio",
+      "noturno"
+    ]
+  },
+  {
+    "word": "leão",
+    "hints": [
+      "selva",
+      "juba",
+      "rei",
+      "caçador",
+      "grupo"
+    ]
+  },
+  {
+    "word": "tigre",
+    "hints": [
+      "listras",
+      "selva",
+      "caçador",
+      "silencioso",
+      "força"
+    ]
+  },
+  {
+    "word": "elefante",
+    "hints": [
+      "grande",
+      "tromba",
+      "peso",
+      "memória",
+      "manada"
+    ]
+  },
+  {
+    "word": "girafa",
+    "hints": [
+      "pescoço",
+      "alto",
+      "manchas",
+      "savana",
+      "folhas"
+    ]
+  },
+  {
+    "word": "zebra",
+    "hints": [
+      "listras",
+      "savana",
+      "manada",
+      "preto",
+      "branco"
+    ]
+  },
+  {
+    "word": "cavalo",
+    "hints": [
+      "corrida",
+      "sela",
+      "casco",
+      "campo",
+      "velocidade"
+    ]
+  },
+  {
+    "word": "vaca",
+    "hints": [
+      "leite",
+      "pasto",
+      "rebanho",
+      "mugido",
+      "calma"
+    ]
+  },
+  {
+    "word": "porco",
+    "hints": [
+      "lama",
+      "rosado",
+      "grunhido",
+      "criação",
+      "comida"
+    ]
+  },
+  {
+    "word": "ovelha",
+    "hints": [
+      "lã",
+      "rebanho",
+      "calma",
+      "pasto",
+      "campo"
+    ]
+  },
+  {
+    "word": "galinha",
+    "hints": [
+      "ovo",
+      "penas",
+      "granja",
+      "cacarejo",
+      "pequeno"
+    ]
+  },
+  {
+    "word": "galo",
+    "hints": [
+      "canto",
+      "manhã",
+      "penas",
+      "crista",
+      "quintal"
+    ]
+  },
+  {
+    "word": "pato",
+    "hints": [
+      "água",
+      "bico",
+      "penas",
+      "nadar",
+      "lago"
+    ]
+  },
+  {
+    "word": "peixe",
+    "hints": [
+      "água",
+      "nadar",
+      "brânquias",
+      "escamas",
+      "oceano"
+    ]
+  },
+  {
+    "word": "tubarão",
+    "hints": [
+      "oceano",
+      "predador",
+      "dentes",
+      "rápido",
+      "caça"
+    ]
+  },
+  {
+    "word": "baleia",
+    "hints": [
+      "oceano",
+      "grande",
+      "mergulho",
+      "sopro",
+      "profundo"
+    ]
+  },
+  {
+    "word": "golfinho",
+    "hints": [
+      "inteligente",
+      "oceano",
+      "salto",
+      "grupo",
+      "comunicação"
+    ]
+  },
+  {
+    "word": "águia",
+    "hints": [
+      "voo",
+      "altura",
+      "garras",
+      "visão",
+      "caça"
+    ]
+  },
+  {
+    "word": "coruja",
+    "hints": [
+      "noturno",
+      "olhos",
+      "silêncio",
+      "voo",
+      "sábio"
+    ]
+  },
+  {
+    "word": "cobra",
+    "hints": [
+      "rastejar",
+      "veneno",
+      "escamas",
+      "silêncio",
+      "ataque"
+    ]
+  },
+  {
+    "word": "jacaré",
+    "hints": [
+      "água",
+      "dentes",
+      "pântano",
+      "força",
+      "caça"
+    ]
+  },
+  {
+    "word": "tartaruga",
+    "hints": [
+      "casco",
+      "lento",
+      "longevidade",
+      "terra",
+      "água"
+    ]
+  },
+  {
+    "word": "coelho",
+    "hints": [
+      "rápido",
+      "orelhas",
+      "pular",
+      "toca",
+      "medroso"
+    ]
+  },
+  {
+    "word": "rato",
+    "hints": [
+      "pequeno",
+      "roer",
+      "rápido",
+      "esconderijo",
+      "noturno"
+    ]
+  },
+  {
+    "word": "morcego",
+    "hints": [
+      "voo",
+      "noturno",
+      "eco",
+      "caverna",
+      "asas"
+    ]
+  },
+  {
+    "word": "urso",
+    "hints": [
+      "grande",
+      "pelo",
+      "força",
+      "hibernação",
+      "floresta"
+    ]
+  },
+  {
+    "word": "lobo",
+    "hints": [
+      "matilha",
+      "uivo",
+      "caça",
+      "selvagem",
+      "noite"
+    ]
+  },
+  {
+    "word": "raposa",
+    "hints": [
+      "astuto",
+      "cauda",
+      "floresta",
+      "silencioso",
+      "esperto"
+    ]
+  },
+  {
+    "word": "macaco",
+    "hints": [
+      "árvore",
+      "agilidade",
+      "grupo",
+      "inteligente",
+      "selva"
+    ]
+  },
+  {
+    "word": "arroz",
+    "hints": [
+      "branco",
+      "grão",
+      "base",
+      "cozido",
+      "acompanhamento"
+    ]
+  },
+  {
+    "word": "feijão",
+    "hints": [
+      "grão",
+      "caldo",
+      "escuro",
+      "cozido",
+      "tradicional"
+    ]
+  },
+  {
+    "word": "macarrão",
+    "hints": [
+      "massa",
+      "cozido",
+      "prato",
+      "italiano",
+      "carboidrato"
+    ]
+  },
+  {
+    "word": "pizza",
+    "hints": [
+      "forno",
+      "massa",
+      "fatia",
+      "recheio",
+      "redonda"
+    ]
+  },
+  {
+    "word": "hambúrguer",
+    "hints": [
+      "carne",
+      "pão",
+      "lanche",
+      "montado",
+      "rápido"
+    ]
+  },
+  {
+    "word": "sanduíche",
+    "hints": [
+      "pão",
+      "recheio",
+      "camadas",
+      "lanche",
+      "frio"
+    ]
+  },
+  {
+    "word": "salada",
+    "hints": [
+      "cru",
+      "leve",
+      "vegetal",
+      "mistura",
+      "saudável"
+    ]
+  },
+  {
+    "word": "sopa",
+    "hints": [
+      "líquido",
+      "quente",
+      "colher",
+      "caldo",
+      "conforto"
+    ]
+  },
+  {
+    "word": "carne",
+    "hints": [
+      "proteína",
+      "grelhar",
+      "cozinhar",
+      "corte",
+      "alimento"
+    ]
+  },
+  {
+    "word": "frango",
+    "hints": [
+      "branco",
+      "cozinhar",
+      "assado",
+      "proteína",
+      "leve"
+    ]
+  },
+  {
+    "word": "peixe",
+    "hints": [
+      "água",
+      "cozinhar",
+      "leve",
+      "marinho",
+      "saudável"
+    ]
+  },
+  {
+    "word": "ovo",
+    "hints": [
+      "casca",
+      "cozinhar",
+      "proteína",
+      "quebrar",
+      "versátil"
+    ]
+  },
+  {
+    "word": "pão",
+    "hints": [
+      "massa",
+      "forno",
+      "fermento",
+      "macio",
+      "base"
+    ]
+  },
+  {
+    "word": "bolo",
+    "hints": [
+      "doce",
+      "forno",
+      "fatia",
+      "aniversário",
+      "massa"
+    ]
+  },
+  {
+    "word": "biscoito",
+    "hints": [
+      "seco",
+      "doce",
+      "crocante",
+      "lanche",
+      "pequeno"
+    ]
+  },
+  {
+    "word": "chocolate",
+    "hints": [
+      "doce",
+      "cacau",
+      "derreter",
+      "barra",
+      "sobremesa"
+    ]
+  },
+  {
+    "word": "sorvete",
+    "hints": [
+      "frio",
+      "doce",
+      "gelado",
+      "verão",
+      "sobremesa"
+    ]
+  },
+  {
+    "word": "queijo",
+    "hints": [
+      "laticínio",
+      "salgado",
+      "fatiar",
+      "derreter",
+      "leite"
+    ]
+  },
+  {
+    "word": "leite",
+    "hints": [
+      "branco",
+      "líquido",
+      "cálcio",
+      "bebida",
+      "base"
+    ]
+  },
+  {
+    "word": "iogurte",
+    "hints": [
+      "fermentado",
+      "cremoso",
+      "frio",
+      "leite",
+      "saudável"
+    ]
+  },
+  {
+    "word": "manteiga",
+    "hints": [
+      "gordura",
+      "pão",
+      "derreter",
+      "amarelo",
+      "cozinha"
+    ]
+  },
+  {
+    "word": "óleo",
+    "hints": [
+      "líquido",
+      "fritar",
+      "cozinha",
+      "gordura",
+      "preparo"
+    ]
+  },
+  {
+    "word": "açúcar",
+    "hints": [
+      "doce",
+      "cristal",
+      "branco",
+      "adoçar",
+      "ingrediente"
+    ]
+  },
+  {
+    "word": "sal",
+    "hints": [
+      "salgado",
+      "tempero",
+      "grão",
+      "realçar",
+      "cozinha"
+    ]
+  },
+  {
+    "word": "café",
+    "hints": [
+      "quente",
+      "amargo",
+      "energia",
+      "xícara",
+      "manhã"
+    ]
+  },
+  {
+    "word": "chá",
+    "hints": [
+      "infusão",
+      "quente",
+      "ervas",
+      "xícara",
+      "leve"
+    ]
+  },
+  {
+    "word": "suco",
+    "hints": [
+      "fruta",
+      "líquido",
+      "refresco",
+      "natural",
+      "vitamina"
+    ]
+  },
+  {
+    "word": "refrigerante",
+    "hints": [
+      "gás",
+      "doce",
+      "frio",
+      "lata",
+      "bolhas"
+    ]
+  },
+  {
+    "word": "água",
+    "hints": [
+      "transparente",
+      "essencial",
+      "líquido",
+      "vida",
+      "hidratação"
+    ]
+  },
+  {
+    "word": "vinho",
+    "hints": [
+      "uva",
+      "fermentado",
+      "taça",
+      "álcool",
+      "refinado"
+    ]
+  },
+  {
+    "word": "cerveja",
+    "hints": [
+      "malte",
+      "gás",
+      "amargo",
+      "copo",
+      "gelada"
+    ]
+  },
+  {
+    "word": "whisky",
+    "hints": [
+      "forte",
+      "âmbar",
+      "álcool",
+      "copo",
+      "complexo"
+    ]
+  },
+  {
+    "word": "vodka",
+    "hints": [
+      "transparente",
+      "forte",
+      "álcool",
+      "neutro",
+      "gelado"
+    ]
+  },
+  {
+    "word": "coquetel",
+    "hints": [
+      "mistura",
+      "bebida",
+      "álcool",
+      "fruta",
+      "bar"
+    ]
+  },
+  {
+    "word": "limonada",
+    "hints": [
+      "ácido",
+      "refresco",
+      "fruta",
+      "água",
+      "açúcar"
+    ]
+  },
+  {
+    "word": "milkshake",
+    "hints": [
+      "gelado",
+      "leite",
+      "doce",
+      "cremoso",
+      "sobremesa"
+    ]
+  },
+  {
+    "word": "torta",
+    "hints": [
+      "massa",
+      "recheio",
+      "fatia",
+      "forno",
+      "doce"
+    ]
+  },
+  {
+    "word": "lasanha",
+    "hints": [
+      "camadas",
+      "massa",
+      "forno",
+      "molho",
+      "queijo"
+    ]
+  },
+  {
+    "word": "risoto",
+    "hints": [
+      "cremoso",
+      "arroz",
+      "cozinhar",
+      "prato",
+      "italiano"
+    ]
+  },
+  {
+    "word": "sushi",
+    "hints": [
+      "arroz",
+      "cru",
+      "peixe",
+      "alga",
+      "oriental"
+    ]
+  },
+  {
+    "word": "temaki",
+    "hints": [
+      "cone",
+      "arroz",
+      "alga",
+      "recheio",
+      "japonês"
+    ]
+  },
+  {
+    "word": "pastel",
+    "hints": [
+      "frito",
+      "recheio",
+      "crocante",
+      "feira",
+      "lanche"
+    ]
+  },
+  {
+    "word": "coxinha",
+    "hints": [
+      "massa",
+      "recheio",
+      "frito",
+      "frango",
+      "lanche"
+    ]
+  },
+  {
+    "word": "empada",
+    "hints": [
+      "massa",
+      "recheio",
+      "forno",
+      "pequeno",
+      "lanche"
+    ]
+  },
+  {
+    "word": "pudim",
+    "hints": [
+      "doce",
+      "cremoso",
+      "ovo",
+      "calda",
+      "sobremesa"
+    ]
+  },
+  {
+    "word": "gelatina",
+    "hints": [
+      "tremido",
+      "doce",
+      "colorido",
+      "leve",
+      "sobremesa"
+    ]
+  },
+  {
+    "word": "brigadeiro",
+    "hints": [
+      "doce",
+      "chocolate",
+      "bola",
+      "festa",
+      "leite"
+    ]
+  },
+  {
+    "word": "farofa",
+    "hints": [
+      "seco",
+      "acompanhamento",
+      "farinha",
+      "tempero",
+      "brasil"
+    ]
+  },
+  {
+    "word": "polenta",
+    "hints": [
+      "milho",
+      "cremoso",
+      "quente",
+      "prato",
+      "simples"
+    ]
+  },
+  {
+    "word": "feijoada",
+    "hints": [
+      "feijão",
+      "carne",
+      "caldo",
+      "tradicional",
+      "brasil"
+    ]
+  },
+  {
+    "word": "Paris",
+    "hints": [
+      "torre",
+      "romance",
+      "europa",
+      "arte",
+      "frança"
+    ]
+  },
+  {
+    "word": "Nova York",
+    "hints": [
+      "arranha-céu",
+      "táxi",
+      "eua",
+      "metrópole",
+      "central"
+    ]
+  },
+  {
+    "word": "Londres",
+    "hints": [
+      "rainha",
+      "ônibus",
+      "neblina",
+      "reino unido",
+      "ponte"
+    ]
+  },
+  {
+    "word": "Roma",
+    "hints": [
+      "antigo",
+      "ruínas",
+      "italia",
+      "história",
+      "império"
+    ]
+  },
+  {
+    "word": "Tóquio",
+    "hints": [
+      "tecnologia",
+      "neon",
+      "japão",
+      "moderno",
+      "metrô"
+    ]
+  },
+  {
+    "word": "Barcelona",
+    "hints": [
+      "praia",
+      "arte",
+      "espanha",
+      "arquitetura",
+      "turismo"
+    ]
+  },
+  {
+    "word": "Lisboa",
+    "hints": [
+      "bonde",
+      "colinas",
+      "portugal",
+      "oceano",
+      "azulejo"
+    ]
+  },
+  {
+    "word": "Madri",
+    "hints": [
+      "capital",
+      "espanha",
+      "futebol",
+      "sol",
+      "praça"
+    ]
+  },
+  {
+    "word": "Dubai",
+    "hints": [
+      "luxo",
+      "deserto",
+      "arranha-céu",
+      "moderno",
+      "riqueza"
+    ]
+  },
+  {
+    "word": "Sydney",
+    "hints": [
+      "ópera",
+      "praia",
+      "austrália",
+      "porto",
+      "mar"
+    ]
+  },
+  {
+    "word": "Los Angeles",
+    "hints": [
+      "cinema",
+      "hollywood",
+      "praia",
+      "eua",
+      "sol"
+    ]
+  },
+  {
+    "word": "Miami",
+    "hints": [
+      "praia",
+      "calor",
+      "eua",
+      "oceano",
+      "latino"
+    ]
+  },
+  {
+    "word": "Las Vegas",
+    "hints": [
+      "cassino",
+      "neon",
+      "eua",
+      "jogo",
+      "noite"
+    ]
+  },
+  {
+    "word": "Chicago",
+    "hints": [
+      "vento",
+      "lago",
+      "eua",
+      "frio",
+      "arquitetura"
+    ]
+  },
+  {
+    "word": "Rio de Janeiro",
+    "hints": [
+      "praia",
+      "carnaval",
+      "cristo",
+      "brasil",
+      "calor"
+    ]
+  },
+  {
+    "word": "São Paulo",
+    "hints": [
+      "metrópole",
+      "trânsito",
+      "brasil",
+      "negócios",
+      "grande"
+    ]
+  },
+  {
+    "word": "Buenos Aires",
+    "hints": [
+      "tango",
+      "argentina",
+      "cultura",
+      "capital",
+      "dança"
+    ]
+  },
+  {
+    "word": "Cancún",
+    "hints": [
+      "praia",
+      "méxico",
+      "turismo",
+      "mar",
+      "calor"
+    ]
+  },
+  {
+    "word": "Orlando",
+    "hints": [
+      "parque",
+      "diversão",
+      "eua",
+      "turismo",
+      "família"
+    ]
+  },
+  {
+    "word": "Veneza",
+    "hints": [
+      "canais",
+      "gôndola",
+      "italia",
+      "água",
+      "romance"
+    ]
+  },
+  {
+    "word": "Amsterdã",
+    "hints": [
+      "bicicleta",
+      "canais",
+      "holanda",
+      "europa",
+      "liberal"
+    ]
+  },
+  {
+    "word": "Berlim",
+    "hints": [
+      "história",
+      "muro",
+      "alemanha",
+      "capital",
+      "europa"
+    ]
+  },
+  {
+    "word": "Atenas",
+    "hints": [
+      "antigo",
+      "grécia",
+      "templo",
+      "história",
+      "ruínas"
+    ]
+  },
+  {
+    "word": "Cairo",
+    "hints": [
+      "pirâmide",
+      "egito",
+      "deserto",
+      "história",
+      "nilo"
+    ]
+  },
+  {
+    "word": "Cidade do México",
+    "hints": [
+      "capital",
+      "méxico",
+      "cultura",
+      "grande",
+      "américa"
+    ]
+  },
+  {
+    "word": "Toronto",
+    "hints": [
+      "canadá",
+      "frio",
+      "cidade",
+      "moderna",
+      "torre"
+    ]
+  },
+  {
+    "word": "Seul",
+    "hints": [
+      "tecnologia",
+      "coreia",
+      "moderna",
+      "capital",
+      "cultura"
+    ]
+  },
+  {
+    "word": "Bangkok",
+    "hints": [
+      "templo",
+      "calor",
+      "tailândia",
+      "mercado",
+      "turismo"
+    ]
+  },
+  {
+    "word": "Istambul",
+    "hints": [
+      "ponte",
+      "turquia",
+      "história",
+      "continentes",
+      "cultura"
+    ]
+  },
+  {
+    "word": "Florença",
+    "hints": [
+      "arte",
+      "italia",
+      "renascimento",
+      "museu",
+      "cultura"
+    ]
+  },
+  {
+    "word": "tesoura",
+    "hints": [
+      "cortar",
+      "lâmina",
+      "mão",
+      "papel",
+      "abrir"
+    ]
+  },
+  {
+    "word": "martelo",
+    "hints": [
+      "prego",
+      "bater",
+      "metal",
+      "ferramenta",
+      "força"
+    ]
+  },
+  {
+    "word": "chave de fenda",
+    "hints": [
+      "parafuso",
+      "girar",
+      "ferramenta",
+      "metal",
+      "aperto"
+    ]
+  },
+  {
+    "word": "furadeira",
+    "hints": [
+      "girar",
+      "furo",
+      "elétrica",
+      "parede",
+      "barulho"
+    ]
+  },
+  {
+    "word": "serrote",
+    "hints": [
+      "cortar",
+      "madeira",
+      "dentes",
+      "ferramenta",
+      "manual"
+    ]
+  },
+  {
+    "word": "parafuso",
+    "hints": [
+      "rosca",
+      "fixar",
+      "metal",
+      "girar",
+      "peça"
+    ]
+  },
+  {
+    "word": "prego",
+    "hints": [
+      "metal",
+      "bater",
+      "fixar",
+      "madeira",
+      "pequeno"
+    ]
+  },
+  {
+    "word": "cola",
+    "hints": [
+      "grudar",
+      "fixar",
+      "líquido",
+      "material",
+      "união"
+    ]
+  },
+  {
+    "word": "fita",
+    "hints": [
+      "colar",
+      "fixar",
+      "rolo",
+      "adesivo",
+      "uso"
+    ]
+  },
+  {
+    "word": "grampeador",
+    "hints": [
+      "papel",
+      "fixar",
+      "metal",
+      "pressão",
+      "escritório"
+    ]
+  },
+  {
+    "word": "clipe",
+    "hints": [
+      "papel",
+      "juntar",
+      "metal",
+      "pequeno",
+      "organizar"
+    ]
+  },
+  {
+    "word": "caderno",
+    "hints": [
+      "anotar",
+      "páginas",
+      "escola",
+      "escrever",
+      "folhas"
+    ]
+  },
+  {
+    "word": "agenda",
+    "hints": [
+      "datas",
+      "anotar",
+      "planejar",
+      "tempo",
+      "organização"
+    ]
+  },
+  {
+    "word": "quadro",
+    "hints": [
+      "parede",
+      "imagem",
+      "moldura",
+      "decorar",
+      "arte"
+    ]
+  },
+  {
+    "word": "tapete",
+    "hints": [
+      "chão",
+      "tecido",
+      "decorar",
+      "pisar",
+      "conforto"
+    ]
+  },
+  {
+    "word": "cortina",
+    "hints": [
+      "janela",
+      "tecido",
+      "privacidade",
+      "luz",
+      "pendurar"
+    ]
+  },
+  {
+    "word": "ventilador",
+    "hints": [
+      "ar",
+      "vento",
+      "girar",
+      "refrescar",
+      "elétrico"
+    ]
+  },
+  {
+    "word": "ar-condicionado",
+    "hints": [
+      "frio",
+      "ambiente",
+      "controle",
+      "temperatura",
+      "elétrico"
+    ]
+  },
+  {
+    "word": "aquecedor",
+    "hints": [
+      "calor",
+      "ambiente",
+      "inverno",
+      "temperatura",
+      "elétrico"
+    ]
+  },
+  {
+    "word": "extensão",
+    "hints": [
+      "tomada",
+      "cabo",
+      "energia",
+      "ligar",
+      "elétrico"
+    ]
+  },
+  {
+    "word": "carregador",
+    "hints": [
+      "energia",
+      "cabo",
+      "ligar",
+      "bateria",
+      "elétrico"
+    ]
+  },
+  {
+    "word": "bateria",
+    "hints": [
+      "energia",
+      "carga",
+      "dispositivo",
+      "elétrico",
+      "armazenar"
+    ]
+  },
+  {
+    "word": "pilha",
+    "hints": [
+      "energia",
+      "pequeno",
+      "dispositivo",
+      "carga",
+      "portátil"
+    ]
+  },
+  {
+    "word": "caixa de ferramentas",
+    "hints": [
+      "guardar",
+      "ferramenta",
+      "organizar",
+      "metal",
+      "uso"
+    ]
+  },
+  {
+    "word": "balde",
+    "hints": [
+      "água",
+      "carregar",
+      "plástico",
+      "limpeza",
+      "recipiente"
+    ]
+  },
+  {
+    "word": "vassoura",
+    "hints": [
+      "varrer",
+      "limpeza",
+      "chão",
+      "cerdas",
+      "uso"
+    ]
+  },
+  {
+    "word": "rodo",
+    "hints": [
+      "água",
+      "puxar",
+      "limpeza",
+      "chão",
+      "secar"
+    ]
+  },
+  {
+    "word": "pá",
+    "hints": [
+      "recolher",
+      "limpeza",
+      "sujeira",
+      "uso",
+      "chão"
+    ]
+  },
+  {
+    "word": "lixeira",
+    "hints": [
+      "descartar",
+      "lixo",
+      "recipiente",
+      "limpeza",
+      "uso"
+    ]
+  },
+  {
+    "word": "saco",
+    "hints": [
+      "guardar",
+      "plástico",
+      "carregar",
+      "leve",
+      "armazenar"
+    ]
+  },
+  {
+    "word": "guarda-chuva",
+    "hints": [
+      "chuva",
+      "proteger",
+      "abrir",
+      "fechar",
+      "água"
+    ]
+  },
+  {
+    "word": "óculos",
+    "hints": [
+      "visão",
+      "lente",
+      "rosto",
+      "proteção",
+      "uso"
+    ]
+  },
+  {
+    "word": "capacete",
+    "hints": [
+      "proteção",
+      "cabeça",
+      "segurança",
+      "uso",
+      "impacto"
+    ]
+  },
+  {
+    "word": "luva",
+    "hints": [
+      "mão",
+      "proteção",
+      "vestir",
+      "uso",
+      "segurança"
+    ]
+  },
+  {
+    "word": "cinto",
+    "hints": [
+      "segurar",
+      "calça",
+      "ajustar",
+      "vestir",
+      "fixar"
+    ]
+  },
+  {
+    "word": "sapato",
+    "hints": [
+      "pé",
+      "vestir",
+      "andar",
+      "proteção",
+      "uso"
+    ]
+  },
+  {
+    "word": "chinelo",
+    "hints": [
+      "pé",
+      "leve",
+      "conforto",
+      "andar",
+      "casual"
+    ]
+  },
+  {
+    "word": "bolsa",
+    "hints": [
+      "carregar",
+      "objetos",
+      "alça",
+      "uso",
+      "transporte"
+    ]
+  },
+  {
+    "word": "carteira",
+    "hints": [
+      "dinheiro",
+      "cartão",
+      "guardar",
+      "pequeno",
+      "bolso"
+    ]
+  },
+  {
+    "word": "moeda",
+    "hints": [
+      "dinheiro",
+      "metal",
+      "troco",
+      "valor",
+      "pequeno"
+    ]
+  },
+  {
+    "word": "nota",
+    "hints": [
+      "dinheiro",
+      "papel",
+      "valor",
+      "troca",
+      "uso"
+    ]
+  },
+  {
+    "word": "cartão",
+    "hints": [
+      "pagamento",
+      "plástico",
+      "banco",
+      "comprar",
+      "uso"
+    ]
+  },
+  {
+    "word": "cadeado",
+    "hints": [
+      "trancar",
+      "segurança",
+      "metal",
+      "chave",
+      "fechar"
+    ]
+  },
+  {
+    "word": "tranca",
+    "hints": [
+      "segurança",
+      "porta",
+      "fechar",
+      "metal",
+      "proteção"
+    ]
+  },
+  {
+    "word": "interruptor",
+    "hints": [
+      "luz",
+      "ligar",
+      "desligar",
+      "parede",
+      "controle"
+    ]
+  },
+  {
+    "word": "tomada",
+    "hints": [
+      "energia",
+      "parede",
+      "ligar",
+      "cabo",
+      "elétrico"
+    ]
+  },
+  {
+    "word": "abajur",
+    "hints": [
+      "luz",
+      "mesa",
+      "ambiente",
+      "iluminar",
+      "decoração"
+    ]
+  },
+  {
+    "word": "lâmpada",
+    "hints": [
+      "luz",
+      "energia",
+      "iluminar",
+      "vidro",
+      "ambiente"
+    ]
+  },
+  {
+    "word": "microfone",
+    "hints": [
+      "voz",
+      "som",
+      "gravar",
+      "áudio",
+      "falar"
+    ]
+  },
+  {
+    "word": "alto-falante",
+    "hints": [
+      "som",
+      "áudio",
+      "volume",
+      "música",
+      "emitir"
+    ]
+  }
+]
