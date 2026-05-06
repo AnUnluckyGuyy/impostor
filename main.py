@@ -25,14 +25,14 @@ def show(players, word, hint):
         clear()
         match player.role["name"]:
             case "innocent":
-                print(Panel.fit(f"[{player.role['color']} bold]Inocente[/]"))
-                print(f"A palavra é: [{player.role['color']}]{word}[/]")
+                print(Panel.fit(f"[{player.role['color']} bold]INOCENTE[/]"))
+                print(f"A palavra é: [{player.role['color']}]{word.upper()}[/]")
             case "impostor":
-                print(Panel.fit(f"[{player.role['color']} bold]Impostor[/]"))
-                print(f"A dica é: [{player.role['color']}]{hint}[/]")
+                print(Panel.fit(f"[{player.role['color']} bold]IMPOSTOR[/]"))
+                print(f"A dica é: [{player.role['color']}]{hint.upper()}[/]")
             case "jester":
-                print(Panel.fit(f"[{player.role['color']} bold]Palhaço[/]"))
-                print(f"A palavra é: [{player.role['color']}]{word}[/]")
+                print(Panel.fit(f"[{player.role['color']} bold]PALHAÇO[/]"))
+                print(f"A palavra é: [{player.role['color']}]{word.upper()}[/]")
             case _:
                 pass
         wait_for("Pressione ENTER para passar para o próximo jogador")
@@ -87,12 +87,12 @@ def main():
         wait_for("Pressione ENTER para revelar o impostor")
         clear()
 
-        print(f"O impostor era:")
+        print(f"O [{impostor.role['color']} bold]IMPOSTOR[/] era:")
         print(Panel.fit(f"[{impostor.role['color']}]{impostor.name}"))
-        print(f"O palhaço era:")
+        print(f"O [{jester.role['color']} bold]PALHAÇO[/] era:")
         print(Panel.fit(f"[{jester.role['color']}]{jester.name}[/]"))
-        print(f"A palavra era: [{RoleColor.INNOCENT.value}]{word}[/]")
-        print(f"A dica era: [{RoleColor.IMPOSTOR.value}]{hint}[/]")
+        print(f"A palavra era: [{RoleColor.INNOCENT.value}]{word.upper()}[/]")
+        print(f"A dica era: [{RoleColor.IMPOSTOR.value}]{hint.upper()}[/]")
         wait_for("")
         clear()
 
