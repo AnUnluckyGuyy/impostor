@@ -54,43 +54,55 @@ def main():
         ))
     clear()
 
-    impostor_index = pick_random_player_index(players)
-    jester_index = pick_random_player_index(players, impostor_index)
-    impostor = players[impostor_index]
-    jester = players[jester_index]
+    while True:
 
-    impostor.role = {
-        "name": "impostor",
-        "color": RoleColor.IMPOSTOR.value
-    }
+        impostor_index = pick_random_player_index(players)
+        jester_index = pick_random_player_index(players, impostor_index)
+        impostor = players[impostor_index]
+        jester = players[jester_index]
 
-    jester.role = {
-        "name": "jester",
-        "color": RoleColor.JESTER.value
-    }
+        impostor.role = {
+            "name": "impostor",
+            "color": RoleColor.IMPOSTOR.value
+        }
 
-    # get word and hint
-    word = ""
-    hint = ""
-    db_path = "database/words.json"
-    word_list = get_entry_from_database(db_path)
-    entry = get_random_entry(word_list)
-    word = entry["word"]
-    hint = random.choice(entry["hints"])
+        jester.role = {
+            "name": "jester",
+            "color": RoleColor.JESTER.value
+        }
 
-    show(players, word, hint)
+        # get word and hint
+        word = ""
+        hint = ""
+        db_path = "database/words.json"
+        word_list = get_entry_from_database(db_path)
+        entry = get_random_entry(word_list)
+        word = entry["word"]
+        hint = random.choice(entry["hints"])
 
-    starting_player = players[pick_random_player_index(players)]
-    print(f"Quem começa é: {starting_player.name}")
-    wait_for("Pressione ENTER para revelar o impostor")
-    clear()
+        show(players, word, hint)
 
-    print(f"O impostor era:")
-    print(Panel.fit(f"[{impostor.role['color']}]{impostor.name}"))
-    print(f"O palhaço era:")
-    print(Panel.fit(f"[{jester.role['color']}]{jester.name}[/]"))
-    print(f"A palavra era: [{RoleColor.INNOCENT.value}]{word}[/]")
-    print(f"A dica era: [{RoleColor.IMPOSTOR.value}]{hint}[/]")
+        starting_player = players[pick_random_player_index(players)]
+        print(f"Quem começa é: {starting_player.name}")
+        wait_for("Pressione ENTER para revelar o impostor")
+        clear()
+
+        print(f"O impostor era:")
+        print(Panel.fit(f"[{impostor.role['color']}]{impostor.name}"))
+        print(f"O palhaço era:")
+        print(Panel.fit(f"[{jester.role['color']}]{jester.name}[/]"))
+        print(f"A palavra era: [{RoleColor.INNOCENT.value}]{word}[/]")
+        print(f"A dica era: [{RoleColor.IMPOSTOR.value}]{hint}[/]")
+        wait_for("")
+        clear()
+
+        c = input("Quer jogar de novo? [s/n]: ")
+        if c == "s":
+            clear()
+            continue
+        else:
+            break
+
 
 if __name__ == "__main__":
     main()
