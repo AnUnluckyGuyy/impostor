@@ -10,8 +10,11 @@ def wait_for(prompt):
     cursor.show()
 
 def get_player_count():
-    num = int(input("Quantos players? "))
-    return num
+    while True:
+        try:
+            return int(input("Quantos players? "))
+        except ValueError:
+            print("Você deve digitar um número!")
 
 def get_player_name():
     player_name = input("Nome: ")

@@ -17,6 +17,9 @@ class Player:
     def __init__(self, name, role=None):
         self.name = name
         self.role: dict[str, list[str] | str] = role
+    def reset(self):
+        self.role['name'] = "innocent"
+        self.role['color'] = RoleColor.INNOCENT.value
 
 def show(players, word, hint):
     for player in players:
@@ -32,7 +35,7 @@ def show(players, word, hint):
                 print(f"A dica é: [{player.role['color']}]{hint.upper()}[/]")
             case "jester":
                 print(Panel.fit(f"[{player.role['color']} bold]PALHAÇO[/]"))
-                print(f"A palavra é: [{player.role['color']}]{word.upper()}[/]")
+                print(f"A palavra é: [{RoleColor.INNOCENT.value}]{word.upper()}[/]")
             case _:
                 pass
         wait_for("Pressione ENTER para passar para o próximo jogador")
@@ -60,7 +63,7 @@ def main():
         jester_index = pick_random_player_index(players, impostor_index)
         impostor = players[impostor_index]
         jester = players[jester_index]
-
+        
         impostor.role = {
             "name": "impostor",
             "color": RoleColor.IMPOSTOR.value
@@ -95,8 +98,13 @@ def main():
         print(f"A dica era: [{RoleColor.IMPOSTOR.value}]{hint.upper()}[/]")
         wait_for("")
         clear()
+        
+        for player in players:
+            player.reset()
 
         c = input("Quer jogar de novo? [s/n]: ")
+        while c != "s" and c != "n":
+            c = input("Quer jogar de novo? [s/n]: ")
         if c == "s":
             clear()
             continue
