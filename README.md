@@ -7,3 +7,5 @@ It's meant to be played irl, so it doesn't have a voting system.
 Libraries used:
 * Rich
 * Cursor
+
+Website version at: https://anunluckyguyy.github.io/impostor/
