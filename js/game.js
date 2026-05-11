@@ -1,101 +1,3 @@
-// const mainDiv = document.querySelector("container");
-// const players = JSON.parse(localStorage.getItem("formData"));
-// const roles = selectImpostorAndJester(players);
-// const buttonNext = document.createElement("button");
-// buttonNext.textContent = ">>>";
-
-// let i = 0;
-
-// buttonNext.onclick = function () {
-    
-// }
-
-// for (let player of players) {
-//     const name = document.createElement("h2");
-//     name.textContent = player;
-
-//     const card = document.createElement("div");
-//     card.className = "card";
-
-//     const front = document.createElement("div");
-//     front.className = "front";
-//     front.textContent = "Segure para revelar...";
-
-//     const back = document.createElement("div");
-//     back.className = "back"
-//     let content;
-//     if (playerIsImpostor(player, roles)) {
-//         content = `IMPOSTOR
-//         Dica: ${hint}
-//         `;
-//     } else if (playerIsJester(player, roles)) {
-//         content = `PALHAÇO
-//         Palavra: ${word}
-//         `;
-//     } else {
-//         content = `INOCENTE
-//         Palavra: ${word}
-//         `;
-//     }
-    
-//     back.textContent = content;
-
-//     card.addEventListener("mousedown", () => {
-//         card.classList.add("flipped");
-//     })
-
-//     card.addEventListener("mouseup", () => {
-//         card.classList.remove("flipped");
-//     })
-
-//     card.addEventListener("mouseleave", () => {
-//         card.classList.remove("flipped");
-//     })
-
-//     card.appendChild(front);
-//     card.appendChild(back);
-
-//     div.appendChild(name);
-//     div.appendChild(card);
-//     div.appendChild(buttonNext);
-
-//     while (true) {}
-// }
-
-// function selectImpostorAndJester(players) {
-//     const min = 0;
-//     const max = players.length-1;
-//     const impostorIndex = Math.floor(Math.random() * (max - min + 1)) + min;
-//     const jesterIndex = Math.floor(Math.random() * (max - min + 1)) + min;
-//     while (impostorIndex === jesterIndex) {
-//         jesterIndex =   Math.floor(Math.random() * (max - min + 1)) + min;
-//     }
-//     roles = [];
-//     for (let i=0; i<players.length; i++) {
-//         if (i === impostorIndex) {
-//             roles.push("impostor");
-//         } else if (i === jesterIndex) {
-//             roles.push("jester");
-//         } else {
-//             roles.push("innocent");
-//         }
-//     }
-// }
-
-// function playerIsImpostor(player, roles) {
-//     if (player === roles["impostor"]) return true;
-//     return false;
-// }
-
-// function playerIsJester(player, roles) {
-//     if (player === roles["jester"]) return true;
-//     return false;
-// }
-
-// function createCard() {
-
-// }
-
 const mainDiv = document.querySelector(".container");
 
 const players =
@@ -103,8 +5,11 @@ const players =
 
 const roles = selectImpostorAndJester(players);
 
-const word = "";
-const hint = "";
+const words = loadWords();
+const wordAndHint = pickWordAndHint(words);
+
+const word = wordAndHint["word"];
+const hint = wordAndHint["hint"];
 
 let currentPlayer = 0;
 
@@ -115,7 +20,8 @@ function renderPlayerCard() {
 
     if (currentPlayer >= players.length) {
         const done = document.createElement("h1");
-        done.textContent = "Todos os jogadores receberam suas cartas!";
+        let index = getRandomIndex(players);
+        done.textContent = `Quem começa é: ${players[index]} `;
         mainDiv.appendChild(done);
         return;
     }
@@ -217,4 +123,29 @@ function selectImpostorAndJester(players) {
     }
 
     return roles;
+}
+
+function getRandomIndex(players) {
+    const min = 0;
+    const max = players.length - 1;
+
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function loadWords() {
+    let response = fetch("database/words.json");
+
+    let words = response.json();
+    return words;
+}
+
+function pickWordAndHint(words) {
+    let i = getRandomIndex(words);
+    
+    let entry = words[i];
+    let word = entry["word"];
+    let hintIndex = getRandomIndex(entry["hints"]);
+    let hints = entry["hints"][hintIndex];
+
+    return {"word": word, "hint": hint};
 }
