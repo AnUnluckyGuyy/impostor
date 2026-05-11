@@ -20,6 +20,8 @@ body {
     width: 500px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 
@@ -75,4 +77,10 @@ button {
     background: #2563eb;
     color: white;
     cursor: pointer;
+}
+
+h2 {
+    font-size: 30px;
+    color: #2563eb;
+    font-weight: bold;
 }
