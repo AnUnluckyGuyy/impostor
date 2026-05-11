@@ -145,7 +145,7 @@ function pickWordAndHint(words) {
     let entry = words[i];
     let word = entry["word"];
     let hintIndex = getRandomIndex(entry["hints"]);
-    let hints = entry["hints"][hintIndex];
+    let hint = entry["hints"][hintIndex];
 
     return {"word": word, "hint": hint};
 }
