@@ -146,10 +146,12 @@ function getRandomIndex(array) {
 
 async function loadWords() {
     const response =
-        await fetch("database/words.json");
+        await fetch("./database/words.json");
+    console.log(response);
 
     const words =
         await response.json();
+    console.log(response);
 
     return words;
 }
