@@ -5,23 +5,35 @@ const players =
 
 const roles = selectImpostorAndJester(players);
 
-const words = loadWords();
-const wordAndHint = pickWordAndHint(words);
-
-const word = wordAndHint["word"];
-const hint = wordAndHint["hint"];
-
 let currentPlayer = 0;
 
-renderPlayerCard();
+let word = "";
+let hint = "";
+
+startGame();
+
+async function startGame() {
+    const words = await loadWords();
+
+    const wordAndHint = pickWordAndHint(words);
+
+    word = wordAndHint.word;
+    hint = wordAndHint.hint;
+
+    renderPlayerCard();
+}
 
 function renderPlayerCard() {
     mainDiv.innerHTML = "";
 
     if (currentPlayer >= players.length) {
         const done = document.createElement("h1");
-        let index = getRandomIndex(players);
-        done.textContent = `Quem começa é: ${players[index]} `;
+
+        const index = getRandomIndex(players);
+
+        done.textContent =
+            `Quem começa é: ${players[index]}`;
+
         mainDiv.appendChild(done);
         return;
     }
@@ -125,27 +137,38 @@ function selectImpostorAndJester(players) {
     return roles;
 }
 
-function getRandomIndex(players) {
+function getRandomIndex(array) {
     const min = 0;
-    const max = players.length - 1;
+    const max = array.length - 1;
 
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function loadWords() {
-    let response = fetch("database/words.json");
+async function loadWords() {
+    const response =
+        await fetch("database/words.json");
 
-    let words = response.json();
+    const words =
+        await response.json();
+
     return words;
 }
 
 function pickWordAndHint(words) {
-    let i = getRandomIndex(words);
-    
-    let entry = words[i];
-    let word = entry["word"];
-    let hintIndex = getRandomIndex(entry["hints"]);
-    let hint = entry["hints"][hintIndex];
+    const i = getRandomIndex(words);
 
-    return {"word": word, "hint": hint};
+    const entry = words[i];
+
+    const word = entry.word;
+
+    const hintIndex =
+        getRandomIndex(entry.hints);
+
+    const hint =
+        entry.hints[hintIndex];
+
+    return {
+        word: word,
+        hint: hint
+    };
 }
