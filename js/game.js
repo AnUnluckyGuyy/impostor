@@ -23,6 +23,10 @@ async function startGame() {
     renderPlayerCard();
 }
 
+function revealWords() {
+    
+}
+
 function renderPlayerCard() {
     mainDiv.innerHTML = "";
 
@@ -34,6 +38,9 @@ function renderPlayerCard() {
         done.textContent =
             `Quem começa é: ${players[index]}`;
         done.style.color = "white";
+        
+        // reveal button 
+        const buttonReveal = document.createElement("button");
 
         mainDiv.appendChild(done);
         return;
