@@ -52,7 +52,7 @@ h2 {
 }
 
 .field input {
-    width: 90%;
+    width: 100%;
     box-sizing: border-box;
     padding: 10px 14px;
     font-size: 1rem;
@@ -88,7 +88,7 @@ h2 {
     line-height: 1.1;
     font-weight: bold;
     border: none;
-    border-radius: 999px;
+    border-radius: 8px;
     background: #2563eb;
     color: white;
     cursor: pointer;
