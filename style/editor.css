@@ -52,8 +52,7 @@ h2 {
 
 .field input {
     width: 100%;
-    height: 1.5rem;
-    padding: 14px 16px;
+    padding: 10px 14px;
     font-size: 1rem;
     border: 1px solid #334155;
     border-radius: 12px;
@@ -80,7 +79,7 @@ h2 {
 }
 
 .buttons button {
-    padding: 12px 16px;
+    padding: 10px 14px;
     font-size: 1rem;
     font-weight: bold;
     border: none;
@@ -88,8 +87,8 @@ h2 {
     background: #2563eb;
     color: white;
     cursor: pointer;
-    flex: 1 1 140px;
-    min-width: 140px;
+    flex: 1 1 130px;
+    min-width: 130px;
 }
 
 @media (max-width: 420px) {
@@ -100,10 +99,15 @@ h2 {
     .field {
         flex-direction: column;
         align-items: stretch;
+        gap: 0.4rem;
     }
 
     .field label {
         min-width: auto;
+    }
+
+    .field input {
+        padding: 10px 12px;
     }
 
     .buttons {
@@ -113,5 +117,6 @@ h2 {
     .buttons button {
         width: 100%;
         min-width: auto;
+        padding: 10px 12px;
     }
 }
