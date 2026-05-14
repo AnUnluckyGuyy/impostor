@@ -5,29 +5,28 @@ body {
 
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 1rem;
 }
 
 .container {
+    width: min(100%, 440px);
+    max-width: 440px;
     background-color: #1e293b;
-    border: 0;
-    border-radius: 0.75rem;
-
-    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.5);
-
-    padding: 2rem;
-    width: 70vh;
+    border-radius: 16px;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.45);
+    padding: 1.75rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 1.5rem;
 }
 
 .card {
-    width: 250px;
-    height: 350px;
+    width: 100%;
+    max-width: 320px;
+    height: clamp(280px, 45vh, 340px);
     position: relative;
     transform-style: preserve-3d;
     transition: transform 0.4s;
@@ -48,10 +47,10 @@ body {
     justify-content: center;
     align-items: center;
 
-    border: 0.2rem solid black;
+    border: 0.2rem solid #111827;
     border-radius: 1rem;
 
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
     padding: 1.5rem;
 
@@ -59,33 +58,59 @@ body {
 }
 
 .front {
-    background: white;
+    background: #ffffff;
+    color: #111827;
 }
 
 .back {
-    background: #eee;
+    background: #e2e8f0;
+    color: #111827;
     transform: rotateY(180deg);
     white-space: pre-line;
 }
 
 button {
-    padding: 10px 16px;
-    font-size: 16px;
+    width: 100%;
+    max-width: 260px;
+    padding: 12px 16px;
+    font-size: 1rem;
     font-weight: bold;
     border: none;
-    border-radius: 6px;
+    border-radius: 8px;
     background: #2563eb;
     color: white;
     cursor: pointer;
 }
 
+h2,
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
 h2 {
-    font-size: 30px;
-    color: #2563eb;
+    font-size: clamp(1.75rem, 4vw, 2.4rem);
+    color: #93c5fd;
     font-weight: bold;
 }
 
 h1 {
     color: #ffffff;
     font-weight: bold;
+    font-size: clamp(1.6rem, 3vw, 2rem);
+}
+
+@media (max-width: 420px) {
+    .container {
+        padding: 1.2rem;
+    }
+
+    .card {
+        max-width: 100%;
+        height: 290px;
+    }
+
+    button {
+        max-width: 100%;
+    }
 }
