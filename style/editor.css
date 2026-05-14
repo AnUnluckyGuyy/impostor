@@ -52,8 +52,10 @@ h2 {
 
 .field input {
     width: 100%;
+    box-sizing: border-box;
     padding: 10px 14px;
     font-size: 1rem;
+    line-height: 1.4;
     border: 1px solid #334155;
     border-radius: 12px;
     background: #0f172a;
@@ -79,16 +81,19 @@ h2 {
 }
 
 .buttons button {
+    box-sizing: border-box;
     padding: 10px 14px;
-    font-size: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.2;
     font-weight: bold;
     border: none;
-    border-radius: 8px;
+    border-radius: 999px;
     background: #2563eb;
     color: white;
     cursor: pointer;
-    flex: 1 1 130px;
-    min-width: 130px;
+    flex: 1 1 auto;
+    min-width: 0;
+    max-width: 240px;
 }
 
 @media (max-width: 420px) {
@@ -108,6 +113,7 @@ h2 {
 
     .field input {
         padding: 10px 12px;
+        border-radius: 10px;
     }
 
     .buttons {
@@ -117,6 +123,7 @@ h2 {
     .buttons button {
         width: 100%;
         min-width: auto;
+        max-width: 100%;
         padding: 10px 12px;
     }
 }
