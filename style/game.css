@@ -12,17 +12,17 @@ body {
 .container {
     background-color: #1e293b;
     border: 0;
-    border-radius: 12px;
+    border-radius: 0.75rem;
 
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.5);
 
-    padding: 30px;
+    padding: 2rem;
     width: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.5rem;
 }
 
 .card {
@@ -48,12 +48,12 @@ body {
     justify-content: center;
     align-items: center;
 
-    border: 2px solid black;
-    border-radius: 16px;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
 
     font-size: 1.3rem;
     text-align: center;
-    padding: 20px;
+    padding: 1.5rem;
 
     backface-visibility: hidden;
 }
