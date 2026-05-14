@@ -51,7 +51,7 @@ h2 {
 }
 
 .field input {
-    width: 100%;
+    width: 90%;
     box-sizing: border-box;
     padding: 10px 14px;
     font-size: 1rem;
@@ -82,7 +82,7 @@ h2 {
 
 .buttons button {
     box-sizing: border-box;
-    padding: 10px 14px;
+    padding: 0.75rem 1.5rem;
     font-size: 0.95rem;
     line-height: 1.2;
     font-weight: bold;
@@ -124,6 +124,6 @@ h2 {
         width: 100%;
         min-width: auto;
         max-width: 100%;
-        padding: 10px 12px;
+        padding: 0.75rem 1.5rem;
     }
 }
