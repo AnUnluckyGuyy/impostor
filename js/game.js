@@ -41,8 +41,24 @@ function renderPlayerCard() {
         
         // reveal button 
         const buttonReveal = document.createElement("button");
+        buttonReveal.textContent = "Revelar";
+        buttonReveal.onclick = function () {
+            while (mainDiv.firstElementChild) {
+                mainDiv.firstElementChild.remove();
+            }
+            
+            const revealScreen = document.createElement("p");
+            revealScreen.textContent = `A palavra era: ${word}\n
+            O impostor era: ${players[roles.indexOf("impostor")]}\n
+            O palhaço era: ${players[roles.indexOf("jester")]}\n
+            A dica era: ${hint}`;
+            revealScreen.style.whiteSpace = "pre-line";
+            revealScreen.style.color = "white";
+            mainDiv.appendChild(revealScreen);
+        };
 
         mainDiv.appendChild(done);
+        mainDiv.appendChild(buttonReveal);
         return;
     }
 
@@ -57,7 +73,7 @@ function renderPlayerCard() {
 
     const front = document.createElement("div");
     front.className = "front";
-    front.textContent = "Segure para revelar...";
+    front.textContent = `${player}`;
 
     const back = document.createElement("div");
     back.className = "back";
